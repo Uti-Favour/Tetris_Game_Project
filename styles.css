@@ -1,27 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-.container{
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-
+body {
+  --tw-bg-opacity: 10;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
-.tetris-board{
-        background: grey;
-        padding-top: 250px;
-        padding-bottom: 300px;
-        padding-left: 600px;
-        padding-right: 600px;
-        margin-top: 20px;
-        width: 50%;
-        border-radius: 30px;
+.container {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
 }
 
+.tetris-board {
+  padding-top: 250px;
+  padding-bottom: 300px;
+  padding-left: 600px;
+  padding-right: 600px;
+  margin-top: 20px;
+  width: 50%;
+  border-radius: 30px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+.arrow_buttons {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  position: relative;
+  font-size: 30px;
+}
