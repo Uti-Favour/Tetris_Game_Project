@@ -20,21 +20,21 @@ body {
 }
 
 .tetris-board {
-  padding-top: 250px;
-  padding-bottom: 300px;
-  padding-left: 600px;
-  padding-right: 600px;
+  padding: 250px 600px;
   margin-top: 20px;
   width: 50%;
   border-radius: 30px;
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  border: 2px solid white;
 }
 
 .arrow_buttons {
   display: flex;
   color: white;
   justify-content: space-between;
-  position: relative;
   font-size: 30px;
+}
+.high_score_container{
+    color: white;
 }
