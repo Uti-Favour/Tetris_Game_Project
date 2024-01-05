@@ -5,3 +5,23 @@
     font-family:sans-serif;
 }
 
+.container{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.tetris-board{
+        background: grey;
+        padding-top: 250px;
+        padding-bottom: 300px;
+        padding-left: 600px;
+        padding-right: 600px;
+        margin-top: 20px;
+        width: 50%;
+        border-radius: 30px;
+}
+
