@@ -1,8 +1,14 @@
 ##Functions to be used in this code :
 
 ##function to Start and Reset the Game
-StartGame();
-rsetGameState();
+function startGame(){
+
+};
+function resetGameState(){
+    if (the tetris fills the board){
+        startGame();
+    }
+};
 
 ##Functions to move the Tetris in the board
 moveRight();
