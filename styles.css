@@ -10,32 +10,26 @@ body {
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
-.container {
-  align-items: center;
-  justify-content: center;
+.container{
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
+  transform: translateX(-50% , -50%);
 }
 
-.tetris-board {
-  padding: 250px 600px;
-  margin-top: 20px;
-  width: 50%;
-  border-radius: 30px;
+.game_board_container{
   --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-  border: 2px solid white;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity)); 
+  padding: 250px 500px;
+  border-radius: 30px;
+  
 }
 
+
+
+/* 
 .arrow_buttons {
   display: flex;
   color: white;
   justify-content: space-between;
   font-size: 30px;
   display: block;
-}
-.high_score_container{
-    color: white;
-}
+} */

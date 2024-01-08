@@ -7,5 +7,5 @@ const tetrisGameBoard = document.getElementsByClassName('tetris-board');
 
 
 
-    
+   
 });

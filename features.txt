@@ -18,3 +18,8 @@ rotateTetris();
 ##This displays the highScore and update it each time it's beaten
 updateHighScore();
 
+#Problems Faced
+- Making the Game board
+- Creating the shapes in grids
+- Writng the game logic : Movements , High Score Update and Rotation
+
