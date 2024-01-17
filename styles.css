@@ -5,28 +5,25 @@
   font-family: sans-serif;
 }
 
-body{
- --tw-bg-opacity: 10;
- background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+body {
+  --tw-bg-opacity: 10;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
-.container{
- justify-content: center;
- align-items: center;
- text-align: center;
- width: 100%;
- height: 100vh; 
+.container { 
+  width: 100%;
+  height: 100vh;
 }
 
-.game_board_container{
+.game_board_container {
   display: grid;
   grid-template-columns: 1fr 50px;
-   grid-template-rows: 1fr 50px;
-   width: 500px;
-   height: 600px;
-   background: white;
+  grid-template-rows: 1fr 50px;
+  width: 500px;
+  height: 600px;
+  background: white;
   position: absolute;
-  left : 50%;
+  left: 50%;
   transform: translateX(-50%);
   margin-top: 20px;
   border-radius: 20px;
@@ -34,12 +31,11 @@ body{
 }
 
 
-
-/* 
 .arrow_buttons {
   display: flex;
-  color: white;
-  justify-content: space-between;
+  color: green;
   font-size: 30px;
-  display: block;
-} */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
