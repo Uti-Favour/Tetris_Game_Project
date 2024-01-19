@@ -23,3 +23,4 @@ updateHighScore();
 - Creating the shapes in grids
 - Writng the game logic : Movements , High Score Update and Rotation
 
+#Documentation of my findings & research
