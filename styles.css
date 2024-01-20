@@ -34,7 +34,7 @@ body {
 
 .arrow_buttons {
   display: flex;
-  color: green;
+  color: grey;
   font-size: 30px;
   justify-content: center;
   align-items: center;
