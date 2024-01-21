@@ -24,3 +24,5 @@ updateHighScore();
 - Writng the game logic : Movements , High Score Update and Rotation
 
 #Documentation of my findings & research
+Instead of uisng padding to create the game board which was not consistent.
+I used a given width and height to make it contain game elements and made it grid to ensure it's responsive.
